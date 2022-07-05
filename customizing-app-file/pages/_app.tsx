@@ -4,6 +4,9 @@ import type { AppProps } from "next/app";
 import Navbar from "../component/Navbar";
 import ThemeContext from "../component/ThemeContext";
 
+interface Props {
+	toggleTheme: string;
+}
 const themes: any = {
 	dark: {
 		background: "black",
